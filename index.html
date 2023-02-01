@@ -9,24 +9,24 @@
  </head>
  <body>
    <div id="caculator">
-      <input type="test"  id="screen-display"/>
+      <input type="test" id="screen-display"  disabled value=""/>
       <div id="buttons-container">
-         <button class="number">7</button>
-         <button class="number">8</button>
-         <button class="number">9</button>
-         <button class="operator">/</button>
-         <button class="number">4</button>
-         <button class="number">5</button>
-         <button class="number">6</button>
-         <button class="operator">*</button>
-         <button class="number">1</button>
-         <button class="number">2</button>
-         <button class="number">3</button>
-         <button class="operator">-</button>
-         <button class="number">0</button>
+         <button class="number" onclick="captureNumber(7)">7</button>
+         <button class="number" onclick="captureNumber(8)">8</button>
+         <button class="number" onclick="captureNumber(9)">9</button>
+         <button class="operator" onclick="getOperator('/')">/</button>
+         <button class="number" onclick="captureNumber(4)">4</button>
+         <button class="number" onclick="captureNumber(5)">5</button>
+         <button class="number" onclick="captureNumber(6)">6</button>
+         <button class="operator" onclick="getOperator('*')">*</button>
+         <button class="number" onclick="captureNumber(1)">1</button>
+         <button class="number" onclick="captureNumber(2)">2</button>
+         <button class="number" onclick="getOperator(3)">3</button>
+         <button class="operator" onclick="getOperator('-')">-</button>
+         <button class="number" onclick="getOperator(0)">0</button>
          <button>.</button>
          <button>=</button>
-         <button class="operator">+</button>
+         <button class="operator" onclick="getOperator('+')">+</button>
          <button class="operator">C</button>
 
 
