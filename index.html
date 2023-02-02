@@ -21,13 +21,13 @@
          <button class="operator" onclick="getOperator('*')">*</button>
          <button class="number" onclick="captureNumber(1)">1</button>
          <button class="number" onclick="captureNumber(2)">2</button>
-         <button class="number" onclick="getOperator(3)">3</button>
+         <button class="number" onclick="captureNumber(3)">3</button>
          <button class="operator" onclick="getOperator('-')">-</button>
-         <button class="number" onclick="getOperator(0)">0</button>
+         <button class="number" onclick="captureNumber(0)">0</button>
          <button>.</button>
-         <button>=</button>
+         <button onclick="caculateResult()">=</button>
          <button class="operator" onclick="getOperator('+')">+</button>
-         <button class="operator">C</button>
+         <button class="operator" onclick="clearResult()">C</button>
 
 
       </div>
